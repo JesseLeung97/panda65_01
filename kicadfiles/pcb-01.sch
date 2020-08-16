@@ -765,15 +765,9 @@ Wire Notes Line
 Wire Notes Line
 	3850 10750 6150 10750
 Wire Notes Line
-	3850 11200 3850 12600
-Wire Notes Line
-	3850 12600 6450 12600
-Wire Notes Line
 	6150 9150 3850 9150
 Wire Notes Line
 	6150 10750 6150 9150
-Wire Notes Line
-	6450 11200 3850 11200
 Wire Notes Line
 	6450 11200 6450 12600
 Wire Notes Line
@@ -800,8 +794,6 @@ Text Notes 1100 12600 0    79   ~ 0
 USB C\n
 Text Notes 3850 10750 0    79   ~ 0
 ESD Protection\n
-Text Notes 3850 12600 0    79   ~ 0
-Power supply and protection
 Text Notes 6850 12600 0    79   ~ 0
 Reset and bootloader
 Text Notes 9450 12600 0    79   ~ 0
@@ -880,17 +872,6 @@ F 2 "" H 2900 9100 50  0001 C CNN
 F 3 "" H 2900 9100 50  0001 C CNN
 	1    2900 9100
 	0    1    1    0   
-$EndComp
-$Comp
-L power:VBUS #PWR0117
-U 1 1 5F0C4B41
-P 4200 11750
-F 0 "#PWR0117" H 4200 11600 50  0001 C CNN
-F 1 "VBUS" V 4215 11877 50  0000 L CNN
-F 2 "" H 4200 11750 50  0001 C CNN
-F 3 "" H 4200 11750 50  0001 C CNN
-	1    4200 11750
-	0    -1   -1   0   
 $EndComp
 $Comp
 L power:VBUS #PWR0118
@@ -1993,7 +1974,7 @@ F 3 "~" H 7400 11250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:DTC123J Q1
+L pcb-01-rescue:DTC123J-acheronSymbols Q1
 U 1 1 5FAAFD9A
 P 7900 11800
 F 0 "Q1" H 8080 11830 30  0000 L CNN
@@ -2015,7 +1996,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf" H 5150 11750
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW1
+L pcb-01-rescue:MXSwitch-acheronSymbols SW1
 U 1 1 5F14BB88
 P 2150 2300
 F 0 "SW1" H 2050 2350 50  0000 L CNN
@@ -2026,7 +2007,7 @@ F 3 "" H 2150 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW17
+L pcb-01-rescue:MXSwitch-acheronSymbols SW17
 U 1 1 5F406D14
 P 2150 3400
 F 0 "SW17" H 2050 3450 50  0000 L CNN
@@ -2037,7 +2018,7 @@ F 3 "" H 2150 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW46
+L pcb-01-rescue:MXSwitch-acheronSymbols SW46
 U 1 1 5F5AF8B6
 P 2150 5600
 F 0 "SW46" H 2050 5650 50  0000 L CNN
@@ -2048,7 +2029,7 @@ F 3 "" H 2150 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW60
+L pcb-01-rescue:MXSwitch-acheronSymbols SW60
 U 1 1 5F639B32
 P 2150 6700
 F 0 "SW60" H 2050 6750 50  0000 L CNN
@@ -2059,7 +2040,7 @@ F 3 "" H 2150 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW2
+L pcb-01-rescue:MXSwitch-acheronSymbols SW2
 U 1 1 5F155916
 P 3050 2300
 F 0 "SW2" H 2950 2350 50  0000 L CNN
@@ -2070,7 +2051,7 @@ F 3 "" H 3050 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW33
+L pcb-01-rescue:MXSwitch-acheronSymbols SW33
 U 1 1 5F4B2B46
 P 3950 4500
 F 0 "SW33" H 3850 4550 50  0000 L CNN
@@ -2081,7 +2062,7 @@ F 3 "" H 3950 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW3
+L pcb-01-rescue:MXSwitch-acheronSymbols SW3
 U 1 1 5F1CC965
 P 3950 2300
 F 0 "SW3" H 3850 2350 50  0000 L CNN
@@ -2092,7 +2073,7 @@ F 3 "" H 3950 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW34
+L pcb-01-rescue:MXSwitch-acheronSymbols SW34
 U 1 1 5F4B2B56
 P 4850 4500
 F 0 "SW34" H 4750 4550 50  0000 L CNN
@@ -2103,7 +2084,7 @@ F 3 "" H 4850 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW47
+L pcb-01-rescue:MXSwitch-acheronSymbols SW47
 U 1 1 5F5AF7F5
 P 4850 5600
 F 0 "SW47" H 4750 5650 50  0000 L CNN
@@ -2114,7 +2095,7 @@ F 3 "" H 4850 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW61
+L pcb-01-rescue:MXSwitch-acheronSymbols SW61
 U 1 1 5F6FCC1C
 P 4850 6700
 F 0 "SW61" H 4750 6750 50  0000 L CNN
@@ -2125,7 +2106,7 @@ F 3 "" H 4850 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW4
+L pcb-01-rescue:MXSwitch-acheronSymbols SW4
 U 1 1 5F1CF1CF
 P 4850 2300
 F 0 "SW4" H 4750 2350 50  0000 L CNN
@@ -2136,7 +2117,7 @@ F 3 "" H 4850 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW20
+L pcb-01-rescue:MXSwitch-acheronSymbols SW20
 U 1 1 5F406C22
 P 5750 3400
 F 0 "SW20" H 5650 3450 50  0000 L CNN
@@ -2147,7 +2128,7 @@ F 3 "" H 5750 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW35
+L pcb-01-rescue:MXSwitch-acheronSymbols SW35
 U 1 1 5F4B2B66
 P 5750 4500
 F 0 "SW35" H 5650 4550 50  0000 L CNN
@@ -2158,7 +2139,7 @@ F 3 "" H 5750 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW48
+L pcb-01-rescue:MXSwitch-acheronSymbols SW48
 U 1 1 5F5AF805
 P 5750 5600
 F 0 "SW48" H 5650 5650 50  0000 L CNN
@@ -2169,7 +2150,7 @@ F 3 "" H 5750 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW5
+L pcb-01-rescue:MXSwitch-acheronSymbols SW5
 U 1 1 5F1D1E09
 P 5750 2300
 F 0 "SW5" H 5650 2350 50  0000 L CNN
@@ -2180,7 +2161,7 @@ F 3 "" H 5750 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW21
+L pcb-01-rescue:MXSwitch-acheronSymbols SW21
 U 1 1 5F406C34
 P 6650 3400
 F 0 "SW21" H 6550 3450 50  0000 L CNN
@@ -2191,7 +2172,7 @@ F 3 "" H 6650 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW36
+L pcb-01-rescue:MXSwitch-acheronSymbols SW36
 U 1 1 5F4B2B76
 P 6650 4500
 F 0 "SW36" H 6550 4550 50  0000 L CNN
@@ -2202,7 +2183,7 @@ F 3 "" H 6650 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW49
+L pcb-01-rescue:MXSwitch-acheronSymbols SW49
 U 1 1 5F5AF815
 P 6650 5600
 F 0 "SW49" H 6550 5650 50  0000 L CNN
@@ -2213,7 +2194,7 @@ F 3 "" H 6650 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW6
+L pcb-01-rescue:MXSwitch-acheronSymbols SW6
 U 1 1 5F1D4C92
 P 6650 2300
 F 0 "SW6" H 6550 2350 50  0000 L CNN
@@ -2224,7 +2205,7 @@ F 3 "" H 6650 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW22
+L pcb-01-rescue:MXSwitch-acheronSymbols SW22
 U 1 1 5F406C46
 P 7550 3400
 F 0 "SW22" H 7450 3450 50  0000 L CNN
@@ -2235,7 +2216,7 @@ F 3 "" H 7550 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW37
+L pcb-01-rescue:MXSwitch-acheronSymbols SW37
 U 1 1 5F4B2B86
 P 7550 4500
 F 0 "SW37" H 7450 4550 50  0000 L CNN
@@ -2246,7 +2227,7 @@ F 3 "" H 7550 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW50
+L pcb-01-rescue:MXSwitch-acheronSymbols SW50
 U 1 1 5F5AF825
 P 7550 5600
 F 0 "SW50" H 7450 5650 50  0000 L CNN
@@ -2257,7 +2238,7 @@ F 3 "" H 7550 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW7
+L pcb-01-rescue:MXSwitch-acheronSymbols SW7
 U 1 1 5F1D7ABF
 P 7550 2300
 F 0 "SW7" H 7450 2350 50  0000 L CNN
@@ -2268,7 +2249,7 @@ F 3 "" H 7550 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW23
+L pcb-01-rescue:MXSwitch-acheronSymbols SW23
 U 1 1 5F406C58
 P 8450 3400
 F 0 "SW23" H 8350 3450 50  0000 L CNN
@@ -2279,7 +2260,7 @@ F 3 "" H 8450 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW38
+L pcb-01-rescue:MXSwitch-acheronSymbols SW38
 U 1 1 5F4B2B94
 P 8450 4500
 F 0 "SW38" H 8350 4550 50  0000 L CNN
@@ -2290,7 +2271,7 @@ F 3 "" H 8450 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW51
+L pcb-01-rescue:MXSwitch-acheronSymbols SW51
 U 1 1 5F5AF834
 P 8450 5600
 F 0 "SW51" H 8350 5650 50  0000 L CNN
@@ -2301,7 +2282,7 @@ F 3 "" H 8450 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW62
+L pcb-01-rescue:MXSwitch-acheronSymbols SW62
 U 1 1 5F71A383
 P 5800 6700
 F 0 "SW62" H 5700 6750 50  0000 L CNN
@@ -2312,7 +2293,7 @@ F 3 "" H 5800 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW8
+L pcb-01-rescue:MXSwitch-acheronSymbols SW8
 U 1 1 5F1DA3F8
 P 8450 2300
 F 0 "SW8" H 8350 2350 50  0000 L CNN
@@ -2323,7 +2304,7 @@ F 3 "" H 8450 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW24
+L pcb-01-rescue:MXSwitch-acheronSymbols SW24
 U 1 1 5F406C6A
 P 9350 3400
 F 0 "SW24" H 9250 3450 50  0000 L CNN
@@ -2334,7 +2315,7 @@ F 3 "" H 9350 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW39
+L pcb-01-rescue:MXSwitch-acheronSymbols SW39
 U 1 1 5F4B2BA4
 P 9350 4500
 F 0 "SW39" H 9250 4550 50  0000 L CNN
@@ -2345,7 +2326,7 @@ F 3 "" H 9350 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW52
+L pcb-01-rescue:MXSwitch-acheronSymbols SW52
 U 1 1 5F5AF842
 P 9350 5600
 F 0 "SW52" H 9250 5650 50  0000 L CNN
@@ -2356,7 +2337,7 @@ F 3 "" H 9350 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW9
+L pcb-01-rescue:MXSwitch-acheronSymbols SW9
 U 1 1 5F1DD265
 P 9350 2300
 F 0 "SW9" H 9250 2350 50  0000 L CNN
@@ -2367,7 +2348,7 @@ F 3 "" H 9350 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW25
+L pcb-01-rescue:MXSwitch-acheronSymbols SW25
 U 1 1 5F406C7C
 P 10250 3400
 F 0 "SW25" H 10150 3450 50  0000 L CNN
@@ -2378,7 +2359,7 @@ F 3 "" H 10250 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW40
+L pcb-01-rescue:MXSwitch-acheronSymbols SW40
 U 1 1 5F4B2BB4
 P 10250 4500
 F 0 "SW40" H 10150 4550 50  0000 L CNN
@@ -2389,7 +2370,7 @@ F 3 "" H 10250 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW53
+L pcb-01-rescue:MXSwitch-acheronSymbols SW53
 U 1 1 5F5AF852
 P 10250 5600
 F 0 "SW53" H 10150 5650 50  0000 L CNN
@@ -2400,7 +2381,7 @@ F 3 "" H 10250 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW10
+L pcb-01-rescue:MXSwitch-acheronSymbols SW10
 U 1 1 5F1E0855
 P 10250 2300
 F 0 "SW10" H 10150 2350 50  0000 L CNN
@@ -2411,7 +2392,7 @@ F 3 "" H 10250 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW26
+L pcb-01-rescue:MXSwitch-acheronSymbols SW26
 U 1 1 5F406C8E
 P 11150 3400
 F 0 "SW26" H 11050 3450 50  0000 L CNN
@@ -2422,7 +2403,7 @@ F 3 "" H 11150 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW41
+L pcb-01-rescue:MXSwitch-acheronSymbols SW41
 U 1 1 5F4B2BC4
 P 11150 4500
 F 0 "SW41" H 11050 4550 50  0000 L CNN
@@ -2433,7 +2414,7 @@ F 3 "" H 11150 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW54
+L pcb-01-rescue:MXSwitch-acheronSymbols SW54
 U 1 1 5F5AF8D0
 P 11150 5600
 F 0 "SW54" H 11050 5650 50  0000 L CNN
@@ -2444,7 +2425,7 @@ F 3 "" H 11150 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW11
+L pcb-01-rescue:MXSwitch-acheronSymbols SW11
 U 1 1 5F1E484C
 P 11150 2300
 F 0 "SW11" H 11050 2350 50  0000 L CNN
@@ -2455,7 +2436,7 @@ F 3 "" H 11150 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW27
+L pcb-01-rescue:MXSwitch-acheronSymbols SW27
 U 1 1 5F406CA0
 P 12050 3400
 F 0 "SW27" H 11950 3450 50  0000 L CNN
@@ -2466,7 +2447,7 @@ F 3 "" H 12050 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW42
+L pcb-01-rescue:MXSwitch-acheronSymbols SW42
 U 1 1 5F4B2BD4
 P 12050 4500
 F 0 "SW42" H 11950 4550 50  0000 L CNN
@@ -2477,7 +2458,7 @@ F 3 "" H 12050 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW55
+L pcb-01-rescue:MXSwitch-acheronSymbols SW55
 U 1 1 5F5AF86C
 P 12050 5600
 F 0 "SW55" H 11950 5650 50  0000 L CNN
@@ -2488,7 +2469,7 @@ F 3 "" H 12050 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW63
+L pcb-01-rescue:MXSwitch-acheronSymbols SW63
 U 1 1 5F738B0C
 P 12050 6700
 F 0 "SW63" H 11950 6750 50  0000 L CNN
@@ -2499,7 +2480,7 @@ F 3 "" H 12050 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW12
+L pcb-01-rescue:MXSwitch-acheronSymbols SW12
 U 1 1 5F1E7DC0
 P 12050 2300
 F 0 "SW12" H 11950 2350 50  0000 L CNN
@@ -2510,7 +2491,7 @@ F 3 "" H 12050 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW28
+L pcb-01-rescue:MXSwitch-acheronSymbols SW28
 U 1 1 5F406CB2
 P 12950 3400
 F 0 "SW28" H 12850 3450 50  0000 L CNN
@@ -2521,7 +2502,7 @@ F 3 "" H 12950 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW43
+L pcb-01-rescue:MXSwitch-acheronSymbols SW43
 U 1 1 5F4B2BE4
 P 12950 4500
 F 0 "SW43" H 12850 4550 50  0000 L CNN
@@ -2532,7 +2513,7 @@ F 3 "" H 12950 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW56
+L pcb-01-rescue:MXSwitch-acheronSymbols SW56
 U 1 1 5F5AF87C
 P 12950 5600
 F 0 "SW56" H 12850 5650 50  0000 L CNN
@@ -2543,7 +2524,7 @@ F 3 "" H 12950 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW13
+L pcb-01-rescue:MXSwitch-acheronSymbols SW13
 U 1 1 5F1EBAF3
 P 12950 2300
 F 0 "SW13" H 12850 2350 50  0000 L CNN
@@ -2554,7 +2535,7 @@ F 3 "" H 12950 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW29
+L pcb-01-rescue:MXSwitch-acheronSymbols SW29
 U 1 1 5F406CC4
 P 13850 3400
 F 0 "SW29" H 13750 3450 50  0000 L CNN
@@ -2565,7 +2546,7 @@ F 3 "" H 13850 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW57
+L pcb-01-rescue:MXSwitch-acheronSymbols SW57
 U 1 1 5F5AF88C
 P 13850 5600
 F 0 "SW57" H 13750 5650 50  0000 L CNN
@@ -2576,7 +2557,7 @@ F 3 "" H 13850 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW64
+L pcb-01-rescue:MXSwitch-acheronSymbols SW64
 U 1 1 5F756DF5
 P 13850 6700
 F 0 "SW64" H 13750 6750 50  0000 L CNN
@@ -2587,7 +2568,7 @@ F 3 "" H 13850 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW14
+L pcb-01-rescue:MXSwitch-acheronSymbols SW14
 U 1 1 5F1EFAF3
 P 13850 2300
 F 0 "SW14" H 13750 2350 50  0000 L CNN
@@ -2598,7 +2579,7 @@ F 3 "" H 13850 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW30
+L pcb-01-rescue:MXSwitch-acheronSymbols SW30
 U 1 1 5F406CD6
 P 14750 3400
 F 0 "SW30" H 14650 3450 50  0000 L CNN
@@ -2609,7 +2590,7 @@ F 3 "" H 14750 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW44
+L pcb-01-rescue:MXSwitch-acheronSymbols SW44
 U 1 1 5F4B2BF4
 P 13750 4500
 F 0 "SW44" H 13650 4550 50  0000 L CNN
@@ -2620,7 +2601,7 @@ F 3 "" H 13750 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW58
+L pcb-01-rescue:MXSwitch-acheronSymbols SW58
 U 1 1 5F5AF89C
 P 14750 5600
 F 0 "SW58" H 14650 5650 50  0000 L CNN
@@ -2631,7 +2612,7 @@ F 3 "" H 14750 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW65
+L pcb-01-rescue:MXSwitch-acheronSymbols SW65
 U 1 1 5F77057C
 P 14750 6700
 F 0 "SW65" H 14650 6750 50  0000 L CNN
@@ -2642,7 +2623,7 @@ F 3 "" H 14750 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW15
+L pcb-01-rescue:MXSwitch-acheronSymbols SW15
 U 1 1 5F1F3B7D
 P 14700 2250
 F 0 "SW15" H 14550 2250 30  0000 L CNN
@@ -2653,7 +2634,7 @@ F 3 "" H 14700 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW68
+L pcb-01-rescue:MXSwitch-acheronSymbols SW68
 U 1 1 6053A623
 P 14750 2300
 F 0 "SW68" H 14550 2300 30  0000 L CNN
@@ -2664,7 +2645,7 @@ F 3 "" H 14750 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW16
+L pcb-01-rescue:MXSwitch-acheronSymbols SW16
 U 1 1 5F20F519
 P 15650 2300
 F 0 "SW16" H 15550 2350 50  0000 L CNN
@@ -2675,7 +2656,7 @@ F 3 "" H 15650 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW31
+L pcb-01-rescue:MXSwitch-acheronSymbols SW31
 U 1 1 5F406CE8
 P 15650 3400
 F 0 "SW31" H 15550 3450 50  0000 L CNN
@@ -2686,7 +2667,7 @@ F 3 "" H 15650 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW45
+L pcb-01-rescue:MXSwitch-acheronSymbols SW45
 U 1 1 5F4B2C04
 P 15650 4500
 F 0 "SW45" H 15550 4550 50  0000 L CNN
@@ -2697,7 +2678,7 @@ F 3 "" H 15650 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW59
+L pcb-01-rescue:MXSwitch-acheronSymbols SW59
 U 1 1 5F5AF8AC
 P 15650 5600
 F 0 "SW59" H 15550 5650 50  0000 L CNN
@@ -2708,7 +2689,7 @@ F 3 "" H 15650 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW66
+L pcb-01-rescue:MXSwitch-acheronSymbols SW66
 U 1 1 5F78A544
 P 15650 6700
 F 0 "SW66" H 15550 6750 50  0000 L CNN
@@ -2730,7 +2711,7 @@ F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 5100 10250 50  0
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:TYPE-C-31-M12_13 J1
+L pcb-01-rescue:TYPE-C-31-M12_13-acheronSymbols J1
 U 1 1 5F3A05A2
 P 1950 10250
 F 0 "J1" H 2057 11667 50  0000 C CNN
@@ -2748,7 +2729,7 @@ Wire Wire Line
 	3600 3400 3400 3400
 Connection ~ 5200 4500
 $Comp
-L acheronSymbols:MXSwitch SW19
+L pcb-01-rescue:MXSwitch-acheronSymbols SW19
 U 1 1 5F406C10
 P 4850 3400
 F 0 "SW19" H 4750 3450 50  0000 L CNN
@@ -2792,7 +2773,7 @@ F 3 "~" V 3950 2950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW18
+L pcb-01-rescue:MXSwitch-acheronSymbols SW18
 U 1 1 5F406BFB
 P 3950 3400
 F 0 "SW18" H 3850 3450 50  0000 L CNN
@@ -3004,7 +2985,7 @@ F 3 "~" V 2100 3950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW32
+L pcb-01-rescue:MXSwitch-acheronSymbols SW32
 U 1 1 5F4B2C1E
 P 2100 4450
 F 0 "SW32" H 2225 4400 30  0000 L CNN
@@ -3015,7 +2996,7 @@ F 3 "" H 2100 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L acheronSymbols:MXSwitch SW69
+L pcb-01-rescue:MXSwitch-acheronSymbols SW69
 U 1 1 603011F6
 P 2100 4450
 F 0 "SW69" H 1850 4450 30  0000 L CNN
@@ -3055,4 +3036,34 @@ Wire Wire Line
 Connection ~ 1725 4450
 Wire Wire Line
 	1725 4450 1550 4450
+Text Notes 3600 12600 0    79   ~ 0
+Power supply and protection
+$Comp
+L power:VBUS #PWR0117
+U 1 1 5F0C4B41
+P 4000 11750
+F 0 "#PWR0117" H 4000 11600 50  0001 C CNN
+F 1 "VBUS" V 4015 11877 50  0000 L CNN
+F 2 "" H 4000 11750 50  0001 C CNN
+F 3 "" H 4000 11750 50  0001 C CNN
+	1    4000 11750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Polyfuse_Small F1
+U 1 1 5F38D22E
+P 4100 11750
+F 0 "F1" V 3942 11750 30  0000 C CNN
+F 1 "500mA" V 4002 11750 30  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 4150 11550 50  0001 L CNN
+F 3 "~" H 4100 11750 50  0001 C CNN
+	1    4100 11750
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	3600 11200 3600 12600
+Wire Notes Line
+	3600 11200 6450 11200
+Wire Notes Line
+	3600 12600 6450 12600
 $EndSCHEMATC

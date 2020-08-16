@@ -63,6 +63,26 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_Polyfuse_Small
+#
+DEF Device_Polyfuse_Small F 0 0 N Y 1 F N
+F0 "F" -75 0 50 V V C CNN
+F1 "Device_Polyfuse_Small" 75 0 50 V V C CNN
+F2 "" 50 -200 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *polyfuse*
+ *PTC*
+$ENDFPLIST
+DRAW
+S -20 50 20 -50 0 1 0 N
+P 2 0 1 0 0 100 0 -100 N
+P 4 0 1 0 -40 50 -40 30 40 -30 40 -50 N
+X ~ 1 0 100 25 D 50 50 1 1 P
+X ~ 2 0 -100 25 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_R_Small
 #
 DEF Device_R_Small R 0 10 N N 1 F N
@@ -231,11 +251,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# acheronSymbols_DTC123J
+# pcb-01-rescue_DTC123J-acheronSymbols
 #
-DEF acheronSymbols_DTC123J Q 0 0 Y N 1 F N
+DEF pcb-01-rescue_DTC123J-acheronSymbols Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "acheronSymbols_DTC123J" 200 0 50 H V L CNN
+F1 "pcb-01-rescue_DTC123J-acheronSymbols" 200 0 50 H V L CNN
 F2 "" 0 0 50 H I L CNN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -268,11 +288,11 @@ X C 3 100 200 100 D 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# acheronSymbols_MXSwitch
+# pcb-01-rescue_MXSwitch-acheronSymbols
 #
-DEF acheronSymbols_MXSwitch SW 0 40 Y Y 1 F N
+DEF pcb-01-rescue_MXSwitch-acheronSymbols SW 0 40 Y Y 1 F N
 F0 "SW" 0 0 50 H V C CNN
-F1 "acheronSymbols_MXSwitch" 0 -150 39 H V C CNN
+F1 "pcb-01-rescue_MXSwitch-acheronSymbols" 0 -150 39 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -284,11 +304,11 @@ X Row 2 0 350 100 D 20 20 1 1 I N
 ENDDRAW
 ENDDEF
 #
-# acheronSymbols_TYPE-C-31-M12_13
+# pcb-01-rescue_TYPE-C-31-M12_13-acheronSymbols
 #
-DEF acheronSymbols_TYPE-C-31-M12_13 J 0 40 Y Y 1 F N
+DEF pcb-01-rescue_TYPE-C-31-M12_13-acheronSymbols J 0 40 Y Y 1 F N
 F0 "J" -50 1400 50 H V L CNN
-F1 "acheronSymbols_TYPE-C-31-M12_13" 400 1300 50 H V R CNN
+F1 "pcb-01-rescue_TYPE-C-31-M12_13-acheronSymbols" 400 1300 50 H V R CNN
 F2 "acheronConnectors:TYPE-C-31-M-12" -500 50 50 V I C CNN
 F3 "" 200 50 50 H I C CNN
 $FPLIST
